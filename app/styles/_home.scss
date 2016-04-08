@@ -1,0 +1,50 @@
+.background-image {
+  background-image: url('../images/front.jpg');
+  @media screen and (min-width: 1000px) {
+    background-image: url('../images/front_2x.jpg');
+  }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:400px;
+
+
+  h1 {
+    text-align: center;
+    color: $white;
+    font-size: 5em;
+    margin-top:0.8em;
+    text-shadow:
+    -2px -2px 0 $gray-darker,
+     2px -2px 0 $gray-darker,
+    -2px  2px 0 $gray-darker,
+     2px  2px 0 $gray-darker;
+  }
+
+}
+.booking-pad{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.booking {
+  background: $gray-darker;
+  margin-top: -50px;
+  padding: $padding-base-horizontal*2;
+  text-align: center;
+  color: #fff;
+  .booking-com-button{
+    // background: #fff;
+  }
+  p {
+    padding-top: $padding-base-horizontal;
+  }
+}
+
+.description{
+  padding: $padding-base-horizontal*2 $padding-base-horizontal;
+  line-height: 1.3em;
+  font-size: 1.2em;
+}
