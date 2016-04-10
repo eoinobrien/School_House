@@ -8,10 +8,10 @@
  * Controller of the App
  */
 angular.module('school-house')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', ['$scope', '$rootScope', "metadataService", function ($scope, $rootScope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-  });
+  }]);

@@ -12,16 +12,31 @@
   height:400px;
 
 
-  h1 {
+  h1,h2 {
     text-align: center;
     color: $white;
-    font-size: 5em;
-    margin-top:0.8em;
+    text-shadow:
+    -1px -1px 0 $gray-darker,
+    1px -1px 0 $gray-darker,
+    -1px  1px 0 $gray-darker,
+    1px  1px 0 $gray-darker;
+  }
+
+  h1{
+    font-size: 3.2em;
+    margin-top:1.6em;
     text-shadow:
     -2px -2px 0 $gray-darker,
-     2px -2px 0 $gray-darker,
+    2px -2px 0 $gray-darker,
     -2px  2px 0 $gray-darker,
-     2px  2px 0 $gray-darker;
+    2px  2px 0 $gray-darker;
+    @media screen and (min-width: $screen-sm-min) {
+      font-size: 5em;
+      margin-top:0.8em;
+    }
+  }
+  h2{
+    font-size: 2em;
   }
 
 }
@@ -35,9 +50,6 @@
   padding: $padding-base-horizontal*2;
   text-align: center;
   color: #fff;
-  .booking-com-button{
-    // background: #fff;
-  }
   p {
     padding-top: $padding-base-horizontal;
   }
@@ -47,4 +59,8 @@
   padding: $padding-base-horizontal*2 $padding-base-horizontal;
   line-height: 1.3em;
   font-size: 1.2em;
+}
+
+.alternative-accom{
+  text-align: center;
 }
