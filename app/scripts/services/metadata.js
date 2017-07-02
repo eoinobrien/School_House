@@ -18,4 +18,4 @@ angular.module("school-house").service("metadataService", ["$location", "$rootSc
   $rootScope.$on('$routeChangeSuccess', function (event, newRoute) {
     self.loadMetadata(newRoute.metadata);
   });
-}])
+}]);

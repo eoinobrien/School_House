@@ -28,14 +28,6 @@ angular
       title: 'Bed & Breakfast | The School House, Castledermot',
       description: 'Bed &amp; Breakfast at The School House. Available to Book now' }
     })
-    .when('/self-catering', {
-      templateUrl: 'views/self-catering.html',
-      controller: 'SelfCateringCtrl',
-      controllerAs: 'self-catering',
-      metadata: {
-        title: 'Self Catering | The School House, Castledermot',
-        description: 'Self Catering Accommodation at The School House. Available to Book now.' }
-    })
     .otherwise({
       redirectTo: '/'
     });
