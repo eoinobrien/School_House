@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("school-house").directive("metaProperty", ["metadataService", function(metadata) {
+angular.module('school-house').directive('metaProperty', ['metadataService', function(metadata) {
   return {
     restrict: 'A',
     scope: {

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("school-house").service("metadataService", ["$location", "$rootScope", function($location, $rootScope) {
+angular.module('school-house').service('metadataService', ['$location', '$rootScope', function($location, $rootScope) {
   var self = this;
 
   // Set custom options or use provided fallback (default) options

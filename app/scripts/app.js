@@ -32,7 +32,7 @@ angular
       redirectTo: '/'
     });
   })
-  .controller('BaseCtrl', ['$location', '$scope', "metadataService", function($location, $scope){
+  .controller('BaseCtrl', ['$location', '$scope', 'metadataService', function($location, $scope){
     $scope.isActive = function (viewLocation) {
         return viewLocation === $location.path();
     };
