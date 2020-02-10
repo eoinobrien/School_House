@@ -35,10 +35,7 @@ AngularJS is a toolset for building the framework most suited to your applicatio
   <div class="row">
     <div class="booking-pad">
       <div class="booking col-xs-12">
-        <a class="btn btn-primary btn-lg" href="mailto:doysan45@hotmail.com?subject=Bed%20&%20Breakfast%20@%20The%20School%20House:%20Booking">Book Now by Email</a>
-        <p>
-          Email for the Best Rates
-        </p>
+        <a class="btn btn-primary btn-lg" ng-click="scrollTo('book-now')">Book Now</a>
       </div>
     </div>
   </div>
@@ -84,7 +81,7 @@ AngularJS is a toolset for building the framework most suited to your applicatio
   </div>
 
   <div class="row">
-    <div class="description col-xs-12 col-md-6">
+    <div class="description col-xs-12 col-md-6"  id="test">
       <img src="images/bbq-john.jpg" alt="Photo of John Doyle BBQ-ing in the Back Garden"/>
       <p class="img-title">The back garden has a number of amenities including ponds and the BBQ area</p>
     </div>
@@ -94,5 +91,9 @@ AngularJS is a toolset for building the framework most suited to your applicatio
     </div>
   </div>
 
-</div>
+  <div class="row" id="book-now">
+    <div class="col-xs-12 col-md-12">
+    </div>
+  </div>
+
 </div>
